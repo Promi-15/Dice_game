@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "../Styled/Button";
 export default function StartGame({toggle}) {
   return (
     <Container>
@@ -27,20 +28,4 @@ height: 100vh;
   }
 }
 `;
-const Button = styled.button`
 
-    padding:10px 18px;
-    background: #000000;
-    border-radius : 5px;
-    color: white;
-    min-width: 220px;
-    border: none;
-    font-size : 16px;
-    transition : 0.4s  ease-in;
-    cursor: pointer;
-    &:hover{
-        background-color : #575555;
-        transition : 0.3s  ease-in;
-    }
-
-`;
